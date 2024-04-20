@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartWatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="textContainer">
+      <div class="anuncio">
+        <h1>DevWatch</h1>
+      </div>
+      <div class="title">
+        <h2>O relógio com o estilo dev!</h2>
+      </div>
+      <div class="descricao">
+        <h3>Desenvolvido especialmente para os profissionais de tecnologia, o DevWatch é mais do que um simples relógio.
+          Com design elegante e funcionalidades avançadas, ele é o companheiro ideal para os desenvolvedores modernos.
+        </h3>
+        <ul>
+          <li>Monitoramento Inteligente: Receba notificações de eventos importantes diretamente no seu pulso,
+            mantendo-se sempre conectado ao seu ambiente de desenvolvimento.</li>
+          <li>Rastreamento de Atividades: Registre seu progresso diário e mantenha-se motivado com o acompanhamento de
+            metas e objetivos.</li>
+          <li>Compatível com Diversas Plataformas: Integração perfeita com sistemas operacionais Windows, macOS, Linux e
+            dispositivos móveis iOS e Android.</li>
+          <li>Design Durável e Confortável: Feito com materiais de alta qualidade e uma pulseira confortável para uso
+            prolongado.</li>
+        </ul>
+      </div>
+      <p>
+        Valor do Produto: $199,99
+        <button id="startButton">Comprar</button>
+      </p>
+      <div class="loading-screen" id="loadingScreen" style="display: none;">
+        <div id="loadingMessage">
+          <div class="spinner">
+            <div class="spinner1"></div>
+          </div>
+          <span>Compra realizada!</span>
+        </div>
+      </div>
+    </div>
+    <div class="watch"></div>
+  </div>
+  <script src="relogio.js"></script>
+  <script src="loading.js"></script>
+</body>
+
+</html>
